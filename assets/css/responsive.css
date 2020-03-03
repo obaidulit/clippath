@@ -1,0 +1,137 @@
+                /*Large devices (desktops, 992px and up)*/
+            
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                .logoPlusMenu {
+                    position: absolute;
+                    background: no-repeat;
+                }
+                .logo {
+                    width: 25%;
+                    float: left;
+                }
+                #menu {
+                    width: 75%;
+                    margin-left: 292px;
+                }
+                .left-column {
+                    margin-top: 40px;
+                }
+                .right-column {
+                    margin-top: 109px;
+                }
+            }
+            /*Medium devices (tablets, 768px and up)*/
+            
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                .logoPlusMenu {
+                    position: absolute;
+                    background: no-repeat;
+                }
+                .logo {
+                    width: 50%;
+                    float: left;
+                }
+                .logo h1 {
+                    font-size: 38px;
+                }
+                #menu {
+                    width: 75%;
+                    margin-left: 471px;
+                    padding-top: 9px;
+                }
+                #menu ul {
+                    display: list-item;
+                    list-style: none;
+                    font-weight: bold;
+                }
+                .left-column {
+                    margin-top: 183px;
+                    width: 100%;
+                }
+                .left-column .text h1 {
+                    font-size: 40px;
+                }
+                .right-column {
+                    margin-top: 12px;
+                    width: 100%;
+                    margin-left: 10%;
+                }
+            }
+            /*Medium devices (tablets, 576 and up 767)*/
+            
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                #panel,
+                #flip {
+                    padding: 5px;
+                    text-align: center;
+                    background-color: #e5eecc;
+                    border: solid 1px #c3c3c3;
+                }
+                #panel {
+                    padding: 50px;
+                    display: none;
+                }
+                #toggle {
+                    margin-top: 41px;
+                    margin-left: 340px;
+                    display: block;
+                    z-index: 2;
+                }
+                #toggle i {
+                    font-size: 40px;
+                }
+                .logoPlusMenu {
+                    position: absolute;
+                    background: no-repeat;
+                }
+                .logo {
+                    width: 50%;
+                    float: left;
+                }
+                .logo h1 {
+                    font-size: 38px;
+                }
+                #menu {
+                    width: 75%;
+                    margin-left: 339px;
+                    padding-top: 9px;
+                    display: none;
+                    padding-top: 50px;
+                }
+                #menu ul {
+                    display: list-item;
+                    list-style: none;
+                    font-weight: bold;
+                    display: block;
+                }
+                .left-column {
+                    margin-top: 132px;
+                    width: 100%;
+                }
+                .left-column .text h1 {
+                    font-size: 40px;
+                }
+                .right-column {
+                    margin-top: 12px;
+                    width: 100%;
+                }
+                .sec4 .column {
+                    width: 75%;
+                    margin-left: 12.5%;
+                    margin-top: 41px;
+                }
+                #middleBox {
+                    margin-left: 12.5%;
+                }
+                input[type="text"] {
+                    width: 100%;
+                }
+                input[type="email"] {
+                    width: 100%;
+                }
+                /*Extra large devices (large desktops, 1200px and up)*/
+                @media (min-width: 1200px) {
+                    body {
+                        background-color: green;
+                    }
+                }

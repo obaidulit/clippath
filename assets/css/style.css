@@ -1,0 +1,351 @@
+/* Base CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/*Header Section Start*/
+
+#toggle {
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 300px;
+    display: none;
+}
+
+#toggle i {
+    font-size: 40px;
+}
+
+.header {
+    background-color: #00A2D4;
+    color: white;
+    padding-bottom: 200px;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+    /*Defult Polygan*/
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);*/
+}
+
+.logoPlusMenu {
+    margin-top: 27px;
+    background-color: #00A2D4;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+#menu {
+    width: 75%;
+    margin-left: 389px;
+    padding-top: 9px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+}
+
+#menu ul li {
+    margin-right: 24px;
+}
+
+#menu ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+#menu ul li a:hover {}
+
+.left-column {
+    width: 45%;
+    float: left;
+    margin-right: 43px;
+}
+
+.left-column .text h1 {
+    font-size: 41px;
+    margin-top: 90px;
+}
+
+.left-column .text p {
+    font-size: 20px;
+    margin-top: 29px;
+    line-height: 36px;
+}
+
+.left-column .button {
+    margin-top: 47px;
+}
+
+.left-column .button button {
+    background-color: orange;
+    font-size: 29px;
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 9px;
+}
+
+.right-column {
+    float: right;
+    width: 45%;
+}
+
+
+/*Header Section End*/
+
+.sec2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec2 .leftimage {
+    margin-right: 22px;
+}
+
+.sec2 .leftimage img {
+    width: 100%;
+}
+
+.sec2 .rightTesxt {}
+
+.sec2 .rightTesxt h3 {
+    font-size: 38px;
+}
+
+.sec2 .rightTesxt p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.sec2 .rightTesxt a {
+    background: orange;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.sec3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sec3 .text1 {}
+
+.sec3 .text1 h3 {}
+
+.sec3 .text1 p {
+    font-size: 18px;
+}
+
+.sec3 .alltext {
+    margin-top: 47px;
+}
+
+.sec3 .alltext .image {
+    background: #E5F3FD;
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.sec3 .alltext .image img {
+    width: 100%;
+}
+
+.sec3 .alltext h3 {}
+
+.sec3 .alltext p {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.sec3 .right-image {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.sec3 .right-image img {
+    width: 100%;
+}
+
+
+/*sec4*/
+
+.sec4 {
+    background: #00A3D4;
+    margin-top: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec4 .column {
+    background: white;
+    width: 31.66%;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+#middleBox {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.sec4 .image {
+    background: #00A3D4;
+    display: inline-block;
+    margin-top: 32px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 36%;
+    margin-bottom: 25px;
+}
+
+.sec4 .column .image img {}
+
+.sec4 .column h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sec4 .column p {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.sec4 .column a {
+    background: #00A3D4;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 30%;
+}
+
+.contactpage {
+    background: #0E53D9E6;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactpage .column-1 {
+    width: 46%;
+    float: left;
+    overflow: hidden;
+}
+
+.contactpage .column-2 {
+    width: 46%;
+    float: right;
+    margin-left: 8%;
+}
+
+.contactpage .location {
+    height: 346px;
+}
+
+.contactpage .contactUs {}
+
+.contactUs .input {
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    padding: 8px 5px 8px 5px;
+    width: 47%;
+    margin-right: 4%;
+    font-size: 18px;
+}
+
+input[type="email"] {
+    padding: 8px 5px 8px 5px;
+    width: 48%;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 17px;
+    padding-left: 7px;
+}
+
+footer {
+    background: black;
+    font-size: 15px;
+    color: white;
+    padding: 13px;
+}
